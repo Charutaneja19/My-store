@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color:red;
+}
+h2{
+	color: red;
+	font-weight:bold;
+	
+}
+pre{
+	color:green;
+	font-style: 
+}
+.container .card{
+	width:33.33%;
+	height:250px;
+	border:1px solid black;
+	margin:20px;
+}
+.container{
+	width:100%;
+	display:flex;
+}
+.container .card_1{
+	background-image: url(home.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.container .card_2{
+	background-image: url(gag.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.container .card_3{
+	background-image: url(cloth.jpg);
+	background-size: cover;
+	background-position: center;
+} 
+.container .card_1 h2{
+	text-align: center;
+	color: black;
+	margin-top: 250px;
+}
+.container .card_3 h2{
+	text-align: center;
+	color: black;
+	margin-top: 250px;
+}
+.container .card_2 h2{
+	text-align: center;
+	color: black;
+	margin-top: 250px;
+}
+.logo_img{
+width:100%;
+margin:10px;
+margin-left: 20px;
+float:left;
+}
+.nav{
+	position: relative;
+	background-color: #339864;
+	box-sizing: border-box;
+	z-index: 9;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: block;
+}
+.nav.menu_bar{
+	float: right;
+	width: 100%
+	padding:  10px;
+	display:flex;
+	opacity:0.7;
+
+}
+.menu_bar a{
+	text-decoration: none;
+	color: orange;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: right;
+	margin-right: 20px;
+}
+.menu_bar a:hover{
+	color: black;
+	opacity: 1;
+}
